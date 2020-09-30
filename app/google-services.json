@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "620293142652",
+    "firebase_url": "https://internetbasedservice.firebaseio.com",
+    "project_id": "internetbasedservice",
+    "storage_bucket": "internetbasedservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620293142652:android:e9fff6b50b9150019031f9",
+        "android_client_info": {
+          "package_name": "com.keeyoshi.clothingshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620293142652-34tun4iqn8sjvpht71mkfb411gqh81im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.keeyoshi.clothingshopping",
+            "certificate_hash": "5aeeb0c6a1d9a78f4488394ab6aaf79f70433734"
+          }
+        },
+        {
+          "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp1MP4HjPx-3u87PkOFXLdTGWznHW9ysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620293142652:android:2d1fdb36355244299031f9",
+        "android_client_info": {
+          "package_name": "com.keeyoshi.dissertationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp1MP4HjPx-3u87PkOFXLdTGWznHW9ysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620293142652:android:3bca0052b8e3a9179031f9",
+        "android_client_info": {
+          "package_name": "com.keeyoshi.internetbasedservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp1MP4HjPx-3u87PkOFXLdTGWznHW9ysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620293142652-gsgqumkko8bpe3vukp3lgbuj7ii3e7js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

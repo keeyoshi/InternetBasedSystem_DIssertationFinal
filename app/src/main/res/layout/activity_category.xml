@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/caral"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="52dp"
+            app:fillColor="#ede4ed"
+            app:pageColor="#ede4ed"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#ede4ed"
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCategory"
+            android:text="Categories"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative21">
+
+            <ImageView
+                android:id="@+id/t_shirts_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/tshirt_c"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T-Shirt"
+                android:id="@+id/txt_shirt"
+                android:layout_below="@+id/t_shirts_C"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/sports_t_shirts_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sporttshirt_c"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/t_shirts_C"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sport T-Shirt"
+                android:layout_below="@+id/sports_t_shirts_C"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:id="@+id/txt_sportShirt"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative22">
+
+            <ImageView
+                android:id="@+id/shoes_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/shoess"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:layout_below="@+id/shoes_C"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="#000"
+                android:id="@+id/txt_shoes"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/female_dresses_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/female_dresses"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/shoes_C"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female Dress"
+                android:layout_below="@+id/female_dresses_C"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/txt_female"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/relative23">
+
+            <ImageView
+                android:id="@+id/sweathers_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/sweather_c"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweathers"
+                android:id="@+id/txt_sweathers"
+                android:layout_below="@+id/sweathers_C"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:id="@+id/hats_C"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hats"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/sweathers_C"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hats"
+                android:layout_below="@+id/hats_C"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:id="@+id/txt_hat"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
